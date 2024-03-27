@@ -20,7 +20,7 @@ mongoose.connect(MONGODB_URL);
 app.get("/", (req, res) => {
   res.send("<h1> Welcome to H2O Project</h1>");
 });
-
+//test
 const PORT = process.env.PORT;
 app.listen(PORT, () => {
   console.log("Server is running on http://localhost:" + PORT);
