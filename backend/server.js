@@ -6,7 +6,7 @@ const mongoose = require("mongoose");
 
 dotenv.config();
 
-//creat server
+//creat server Ebook
 const app = express();
 const CLIENT_URL = process.env.CLIENT_URL;
 app.use(cors({ credentials: true, origin: CLIENT_URL }));
